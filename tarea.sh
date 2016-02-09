@@ -11,7 +11,7 @@ answer_1=$(gzcat $states \
     | cut -f1 \
     | sed 's/"//g')
 
-    echo "answer-1:$answer_1"
+    echo "answer-1: $answer_1"
 echo "answer-1:$answer_1"> answers.yml
 
 samplefa="$datasets/sample.fa"
